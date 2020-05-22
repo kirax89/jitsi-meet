@@ -83,7 +83,8 @@ class RecentList extends AbstractRecentList<Props> {
         } = this.props;
         const recentList = toDisplayableList(_recentList, t, _defaultServerURL);
         const slideActions = [ {
-            backgroundColor: ColorPalette.blue,
+            // backgroundColor: ColorPalette.blue,
+            backgroundColor: 'rgb(167, 53, 140)',
             onPress: this._onShowDialInInfo,
             text: t('welcomepage.info')
         }, {

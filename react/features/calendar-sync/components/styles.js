@@ -12,8 +12,10 @@ export default createStyleSheet({
      * Button style of the open settings button.
      */
     noPermissionMessageButton: {
-        backgroundColor: ColorPalette.blue,
-        borderColor: ColorPalette.blue,
+        // backgroundColor: ColorPalette.blue,
+        // borderColor: ColorPalette.blue,
+        backgroundColor: 'rgb(167, 53, 140)',
+        borderColor: 'rgb(167, 53, 140)',
         borderRadius: 4,
         borderWidth: 1,
         height: 30,
@@ -94,7 +96,8 @@ export default createStyleSheet({
      * Color for upcoming meeting notification.
      */
     notificationContentNext: {
-        backgroundColor: '#eeb231'
+        //backgroundColor: '#eeb231'
+        backgroundColor: '#32ed61'
     },
 
     /**
