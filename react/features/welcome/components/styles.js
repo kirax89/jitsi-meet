@@ -58,8 +58,8 @@ export default {
     button: {
         // backgroundColor: ColorPalette.blue,
         // borderColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
-        borderColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
+        borderColor: 'rgb(167, 53, 139)',
         borderRadius: 4,
         borderWidth: 1,
         height: 30,
@@ -178,7 +178,7 @@ export default {
     reducedUIContainer: {
         alignItems: 'center',
         // backgroundColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
         flex: 1,
         justifyContent: 'center'
     },
@@ -243,7 +243,7 @@ export default {
      */
     sideBarItemIcon: {
         // color: ColorPalette.blueHighlight,
-        color: 'rgb(167, 53, 140)',
+        color: 'rgb(167, 53, 139)',
         fontSize: 20,
         marginRight: 15
     },
@@ -310,7 +310,7 @@ export default {
      */
     welcomePage: {
         // backgroundColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
         overflow: 'hidden'
     }
 };

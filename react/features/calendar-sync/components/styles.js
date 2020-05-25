@@ -14,8 +14,8 @@ export default createStyleSheet({
     noPermissionMessageButton: {
         // backgroundColor: ColorPalette.blue,
         // borderColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
-        borderColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
+        borderColor: 'rgb(167, 53, 139)',
         borderRadius: 4,
         borderWidth: 1,
         height: 30,

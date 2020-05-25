@@ -35,12 +35,12 @@ export default {
     'Dialog': {
         border: 'rgba(0, 3, 6, 0.6)',
         // buttonBackground: ColorPalette.blue,
-        buttonBackground: 'rgb(167, 53, 140)',
+        buttonBackground: 'rgb(167, 53, 139)',
         buttonLabel: ColorPalette.white
     },
     'Header': {
         // background: ColorPalette.blue,
-        background: 'rgb(167, 53, 140)',
+        background: 'rgb(167, 53, 139)',
         icon: ColorPalette.white,
         // statusBar: ColorPalette.blueHighlight,
         statusBar: 'rgb(178, 16, 138)',
