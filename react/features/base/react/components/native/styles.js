@@ -43,7 +43,7 @@ const PAGED_LIST_STYLES = {
     pageIndicatorContainer: {
         alignItems: 'center',
         // backgroundColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
         flexDirection: 'row',
         justifyContent: 'space-around'
     },
@@ -59,7 +59,8 @@ const PAGED_LIST_STYLES = {
      */
     pageIndicatorIcon: {
         // color: ColorPalette.blueHighlight,
-        color: 'rgb(178, 16, 138)',
+        // color: 'rgb(178, 16, 138)', not enough contrast
+        color: 'rgb(150, 150, 150)',
         fontSize: 24
     },
 
@@ -68,7 +69,8 @@ const PAGED_LIST_STYLES = {
      */
     pageIndicatorText: {
         // color: ColorPalette.blueHighlight
-        color: 'rgb(178, 16, 138)'
+        // color: 'rgb(178, 16, 138)' not enough contrast
+        color: 'rgb(150, 150, 150)'
     },
 
     /**
@@ -189,7 +191,7 @@ const SECTION_LIST_STYLES = {
     secondaryActionContainer: {
         alignItems: 'center',
         // backgroundColor: ColorPalette.blue,
-        backgroundColor: 'rgb(167, 53, 140)',
+        backgroundColor: 'rgb(167, 53, 139)',
         borderRadius: 3,
         height: SECONDARY_ACTION_BUTTON_SIZE,
         justifyContent: 'center',
