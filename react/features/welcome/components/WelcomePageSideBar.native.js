@@ -101,7 +101,7 @@ class WelcomePageSideBar extends Component<Props> {
                         style = { styles.itemContainer }>
                         <SideBarItem
                             icon = { IconSettings }
-                            label = 'welcomepage.settings'
+                            label = 'settings.title'
                             onPress = { this._onOpenSettings } />
                         <SideBarItem
                             icon = { IconInfo }
