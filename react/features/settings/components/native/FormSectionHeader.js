@@ -1,9 +1,11 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { translate } from '../../../base/i18n';
+
+import Text from '../../../oneplusfix/MyText'
 
 import styles from './styles';
 

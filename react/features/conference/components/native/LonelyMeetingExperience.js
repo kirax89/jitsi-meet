@@ -1,7 +1,7 @@
 // @flow
 
 import React, { PureComponent } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
 import { getFeatureFlag, INVITE_ENABLED } from '../../../base/flags';
@@ -13,6 +13,8 @@ import { StyleType } from '../../../base/styles';
 import { doInvitePeople } from '../../../invite/actions.native';
 
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * Props type of the component.

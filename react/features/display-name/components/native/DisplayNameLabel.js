@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import {
     getLocalParticipant,
@@ -9,6 +9,8 @@ import {
     shouldRenderParticipantVideo
 } from '../../../base/participants';
 import { connect } from '../../../base/redux';
+
+import Text from '../../../oneplusfix/MyText'
 
 import styles from './styles';
 

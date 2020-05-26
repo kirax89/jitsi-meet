@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import type { SetionListSection } from '../../Types';
 
 import Container from './Container';
-import Text from './Text';
+import Text from '../../../../oneplusfix/MyText'
 import styles from './styles';
 
 type Props = {

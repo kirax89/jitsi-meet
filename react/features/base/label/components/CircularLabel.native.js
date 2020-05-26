@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import { Animated, Text } from 'react-native';
+import { Animated } from 'react-native';
 
 import Icon from '../../icons/components/Icon';
 import { combineStyles, type StyleType } from '../../styles';
@@ -9,6 +9,8 @@ import AbstractCircularLabel, {
     type Props as AbstractProps
 } from './AbstractCircularLabel';
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * Const for status string 'in progress'.

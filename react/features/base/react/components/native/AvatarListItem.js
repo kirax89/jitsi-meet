@@ -1,7 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text } from 'react-native';
 
 import { Avatar } from '../../../avatar';
 import { StyleType } from '../../../styles';
@@ -9,6 +8,8 @@ import { type Item } from '../../Types';
 
 import Container from './Container';
 import styles, { AVATAR_SIZE, UNDERLAY_COLOR } from './styles';
+
+import Text from '../../../../oneplusfix/MyText'
 
 type Props = {
 

@@ -1,11 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { translate } from '../../../base/i18n';
 
 import styles, { ANDROID_UNDERLINE_COLOR, PLACEHOLDER_COLOR } from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link FormRow}

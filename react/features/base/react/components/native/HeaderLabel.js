@@ -1,11 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../color-scheme';
 import { translate } from '../../../i18n';
 import { connect } from '../../../redux';
+
+import Text from '../../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link HeaderLabel}

@@ -9,12 +9,14 @@ import {
     getParticipantDisplayName,
     getParticipantPresenceStatus
 } from '../../../base/participants';
-import { Container, Text } from '../../../base/react';
+import { Container } from '../../../base/react';
 import { connect } from '../../../base/redux';
 import { isLocalTrackMuted } from '../../../base/tracks';
 import { CALLING, PresenceLabel } from '../../../presence-status';
 
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link CalleeInfo}.

@@ -1,11 +1,13 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../color-scheme';
 import { translate } from '../../../i18n';
 import { connect } from '../../../redux';
+
+import Text from '../../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link ForwardButton}

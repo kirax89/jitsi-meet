@@ -3,7 +3,7 @@
 import React, { Component } from 'react';
 import { Linking } from 'react-native';
 
-import Text from './Text';
+import Text from '../../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link Link}.

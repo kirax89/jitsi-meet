@@ -2,7 +2,8 @@
 
 import React, { Component } from 'react';
 import ReactLinkify from 'react-linkify';
-import { Text } from 'react-native';
+
+import Text from '../../../../oneplusfix/MyText'
 
 import { type StyleType } from '../../../styles';
 

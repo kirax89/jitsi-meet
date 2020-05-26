@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { _abstractMapStateToProps } from '../../../../base/dialog';
 import { translate } from '../../../../base/i18n';
@@ -17,6 +17,8 @@ import {
 import logger from '../../../logger';
 
 import styles from './styles';
+
+import Text from '../../../../oneplusfix/MyText'
 
 /**
  * Prop type of the component {@code GoogleSigninForm}.

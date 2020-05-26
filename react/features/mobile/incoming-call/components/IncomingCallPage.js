@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import { Avatar } from '../../../base/avatar';
@@ -15,6 +15,8 @@ import styles, {
     BACKGROUND_OVERLAY_GRADIENT,
     CALLER_AVATAR_SIZE
 } from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * The type of React {@code Component} props of {@link IncomingCallPage}.

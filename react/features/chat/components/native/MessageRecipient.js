@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Text, TouchableHighlight, View } from 'react-native';
+import { TouchableHighlight, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
 import { translate } from '../../../base/i18n';
@@ -13,6 +13,8 @@ import AbstractMessageRecipient, {
     _mapStateToProps as _abstractMapStateToProps,
     type Props as AbstractProps
 } from '../AbstractMessageRecipient';
+
+import Text from '../../../oneplusfix/MyText'
 
 type Props = AbstractProps & {
 

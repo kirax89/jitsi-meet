@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { Avatar } from '../../../base/avatar';
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
@@ -16,6 +16,8 @@ import KickButton from './KickButton';
 import MuteButton from './MuteButton';
 import PinButton from './PinButton';
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * Size of the rendered avatar in the menu.

@@ -5,11 +5,12 @@ import { Switch, TouchableWithoutFeedback, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../base/color-scheme';
 import { translate } from '../../base/i18n';
-import { Text } from '../../base/react';
 import { connect } from '../../base/redux';
 import { updateSettings } from '../../base/settings';
 
 import styles, { SWITCH_THUMB_COLOR, SWITCH_UNDER_COLOR } from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link VideoSwitch}.

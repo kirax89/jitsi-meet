@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { Container, Text } from '../../base/react';
+import { Container } from '../../base/react';
 import { connect } from '../../base/redux';
 
 import {
@@ -11,6 +11,8 @@ import {
     type AbstractCaptionsProps
 } from './AbstractCaptions';
 import styles from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link Captions}.

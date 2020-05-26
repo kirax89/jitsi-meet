@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 
 import { translate } from '../../base/i18n';
 import { AbstractPage } from '../../base/react';
@@ -11,6 +11,8 @@ import { refreshCalendar } from '../actions';
 
 import CalendarListContent from './CalendarListContent';
 import styles from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 /**
  * The tyoe of the React {@code Component} props of {@link CalendarList}.

@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { Avatar } from '../../avatar';
 import { translate } from '../../i18n';
@@ -16,6 +16,8 @@ import type { StyleType } from '../../styles';
 import { TestHint } from '../../testing/components';
 import { getTrackByMediaTypeAndParticipant } from '../../tracks';
 import { shouldRenderParticipantVideo } from '../functions';
+
+import Text from '../../../oneplusfix/MyText'
 
 import styles from './styles';
 

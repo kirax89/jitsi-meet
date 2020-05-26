@@ -1,12 +1,14 @@
 // @flow
 
 import React from 'react';
-import { Text, TouchableHighlight, View } from 'react-native';
+import { TouchableHighlight, View } from 'react-native';
 
 import { Icon } from '../../icons';
 
 import AbstractToolboxItem from './AbstractToolboxItem';
 import type { Props } from './AbstractToolboxItem';
+
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * Native implementation of {@code AbstractToolboxItem}.

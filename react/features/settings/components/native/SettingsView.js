@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Alert, NativeModules, ScrollView, Switch, Text, TextInput } from 'react-native';
+import { Alert, NativeModules, ScrollView, Switch } from 'react-native';
 
 import { translate } from '../../../base/i18n';
 import { JitsiModal } from '../../../base/modal';
@@ -16,6 +16,9 @@ import {
 
 import FormRow from './FormRow';
 import FormSectionHeader from './FormSectionHeader';
+
+import TextInput from '../../../oneplusfix/MyTextInput'
+import Text from '../../../oneplusfix/MyText'
 
 /**
  * Application information module.

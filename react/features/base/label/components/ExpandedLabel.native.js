@@ -1,7 +1,9 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Animated, Text, View } from 'react-native';
+import { Animated, View } from 'react-native';
+
+import Text from '../../../oneplusfix/MyText'
 
 import styles, { DEFAULT_COLOR, LABEL_MARGIN, LABEL_SIZE } from './styles';
 

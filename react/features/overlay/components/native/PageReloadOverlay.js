@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import { Text } from 'react-native';
 
 import { appNavigate, reloadNow } from '../../../app';
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
@@ -16,6 +15,8 @@ import AbstractPageReloadOverlay, {
 } from '../AbstractPageReloadOverlay';
 
 import OverlayFrame from './OverlayFrame';
+
+import Text from '../../../oneplusfix/MyText'
 
 type Props = AbstractProps & {
 

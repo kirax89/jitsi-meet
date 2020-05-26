@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { SafeAreaView, Text, View } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
 import { translate } from '../../../base/i18n';
@@ -11,6 +11,8 @@ import { StyleType } from '../../../base/styles';
 
 import OverlayFrame from './OverlayFrame';
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 type Props = {
 

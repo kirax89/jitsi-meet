@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Linking, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { Linking, TouchableOpacity, View } from 'react-native';
 
 import { _abstractMapStateToProps } from '../../../../base/dialog';
 import { translate } from '../../../../base/i18n';
@@ -11,6 +11,9 @@ import AbstractStreamKeyForm, {
     type Props as AbstractProps
 } from '../AbstractStreamKeyForm';
 import { GOOGLE_PRIVACY_POLICY, YOUTUBE_TERMS_URL } from '../constants';
+
+import TextInput from '../../../../oneplusfix/MyTextInput'
+import Text from '../../../../oneplusfix/MyText'
 
 type Props = AbstractProps & {
 

@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { SafeAreaView, ScrollView, Text } from 'react-native';
+import { SafeAreaView, ScrollView } from 'react-native';
 
 import { Avatar } from '../../base/avatar';
 import { IconInfo, IconSettings, IconHelp } from '../../base/icons';
@@ -21,6 +21,8 @@ import { setSideBarVisible } from '../actions';
 
 import SideBarItem from './SideBarItem';
 import styles, { SIDEBAR_AVATAR_SIZE } from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 /**
  * The URL at which the privacy policy is available to the user.

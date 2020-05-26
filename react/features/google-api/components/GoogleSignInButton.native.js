@@ -1,12 +1,14 @@
 // @flow
 
 import React from 'react';
-import { Image, Text, TouchableOpacity } from 'react-native';
+import { Image, TouchableOpacity } from 'react-native';
 
 import { translate } from '../../base/i18n';
 
 import AbstractGoogleSignInButton from './AbstractGoogleSignInButton';
 import styles from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 // eslint-disable-next-line
 const GOOGLE_BRAND_IMAGE = require('../../../../images/btn_google_signin_dark_normal.png');

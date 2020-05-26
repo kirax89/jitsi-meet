@@ -2,7 +2,7 @@
 
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { NativeModules, Text, TouchableHighlight, View } from 'react-native';
+import { NativeModules, TouchableHighlight, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
 import { hideDialog, BottomSheet } from '../../../base/dialog';
@@ -18,6 +18,8 @@ import { connect } from '../../../base/redux';
 import { ColorPalette, type StyleType } from '../../../base/styles';
 
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 const { AudioMode } = NativeModules;
 

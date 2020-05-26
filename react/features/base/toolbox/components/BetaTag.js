@@ -3,7 +3,9 @@
 import React, { Component } from 'react';
 
 import { translate } from '../../i18n';
-import { Container, Text } from '../../react';
+import { Container } from '../../react';
+
+import Text from '../../../oneplusfix/MyText'
 
 type Props = {
     t: Function

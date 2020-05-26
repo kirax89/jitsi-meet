@@ -1,7 +1,9 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Linking, Text, TouchableOpacity, View } from 'react-native';
+import { Linking, TouchableOpacity, View } from 'react-native';
+
+import Text from '../../oneplusfix/MyText'
 
 import { translate } from '../../base/i18n';
 import { Icon } from '../../base/icons';

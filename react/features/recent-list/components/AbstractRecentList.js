@@ -11,11 +11,12 @@ import {
 import { appNavigate } from '../../app';
 import {
     AbstractPage,
-    Container,
-    Text
+    Container
 } from '../../base/react';
 
 import styles from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link AbstractRecentList}

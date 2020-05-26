@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { View, Text, TextInput, TouchableOpacity } from 'react-native';
+import { View, TouchableOpacity } from 'react-native';
 
 import { translate } from '../../../i18n';
 import { connect } from '../../../redux';
@@ -15,6 +15,9 @@ import {
     brandedDialog,
     inputDialog as styles
 } from './styles';
+
+import Text from '../../../../oneplusfix/MyText'
+import TextInput from '../../../../oneplusfix/MyTextInput'
 
 type Props = BaseProps & {
 

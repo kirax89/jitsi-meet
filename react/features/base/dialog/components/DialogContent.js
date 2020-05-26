@@ -2,8 +2,10 @@
 
 import React, { Component } from 'react';
 
-import { Container, Text } from '../../react';
+import { Container } from '../../react';
 import { type StyleType } from '../../styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 import styles from './styles';
 

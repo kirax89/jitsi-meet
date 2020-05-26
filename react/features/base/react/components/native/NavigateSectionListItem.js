@@ -8,7 +8,7 @@ import type { Item } from '../../Types';
 
 import AvatarListItem from './AvatarListItem';
 import Container from './Container';
-import Text from './Text';
+import Text from '../../../../oneplusfix/MyText'
 import styles from './styles';
 
 type Props = {

@@ -1,12 +1,14 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Platform, TextInput, TouchableOpacity, View } from 'react-native';
+import { Platform, TouchableOpacity, View } from 'react-native';
 
 import { translate } from '../../../base/i18n';
 import { Icon, IconChatSend } from '../../../base/icons';
 
 import styles from './styles';
+
+import TextInput from '../../../oneplusfix/MyTextInput'
 
 type Props = {
 

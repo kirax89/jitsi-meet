@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 
 import { appNavigate } from '../../app';
 import { getURLWithoutParamsNormalized } from '../../base/connection';
@@ -11,6 +11,8 @@ import { connect } from '../../base/redux';
 import { ASPECT_RATIO_NARROW } from '../../base/responsive-ui';
 
 import styles from './styles';
+
+import Text from '../../oneplusfix/MyText'
 
 const ALERT_MILLISECONDS = 5 * 60 * 1000;
 

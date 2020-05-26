@@ -3,7 +3,6 @@ import {
     Animated,
     Keyboard,
     SafeAreaView,
-    TextInput,
     TouchableHighlight,
     TouchableOpacity,
     View
@@ -14,7 +13,7 @@ import { ColorSchemeRegistry } from '../../base/color-scheme';
 import { translate } from '../../base/i18n';
 import { Icon, IconMenu, IconWarning } from '../../base/icons';
 import { MEDIA_TYPE } from '../../base/media';
-import { Header, LoadingIndicator, Text } from '../../base/react';
+import { Header, LoadingIndicator } from '../../base/react';
 import { connect } from '../../base/redux';
 import { ColorPalette } from '../../base/styles';
 import {
@@ -35,6 +34,9 @@ import VideoSwitch from './VideoSwitch';
 import WelcomePageLists from './WelcomePageLists';
 import WelcomePageSideBar from './WelcomePageSideBar';
 import styles, { PLACEHOLDER_TEXT_COLOR } from './styles';
+
+import Text from '../../oneplusfix/MyText'
+import TextInput from '../../oneplusfix/MyTextInput'
 
 /**
  * The native container rendering the welcome page.

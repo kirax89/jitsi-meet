@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import {
     Linking,
-    Text,
     TouchableHighlight,
     TouchableOpacity,
     View
@@ -14,6 +13,8 @@ import { translate } from '../../../../base/i18n';
 import { connect } from '../../../../base/redux';
 import { StyleType } from '../../../../base/styles';
 import { YOUTUBE_LIVE_DASHBOARD_URL } from '../constants';
+
+import Text from '../../../../oneplusfix/MyText'
 
 import styles, { ACTIVE_OPACITY, TOUCHABLE_UNDERLAY } from './styles';
 

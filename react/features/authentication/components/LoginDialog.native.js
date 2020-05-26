@@ -1,7 +1,7 @@
 /* @flow */
 
 import React, { Component } from 'react';
-import { Text, TextInput, View } from 'react-native';
+import { View } from 'react-native';
 import { connect as reduxConnect } from 'react-redux';
 import type { Dispatch } from 'redux';
 
@@ -19,6 +19,9 @@ import { translate } from '../../base/i18n';
 import { JitsiConnectionErrors } from '../../base/lib-jitsi-meet';
 import type { StyleType } from '../../base/styles';
 import { authenticateAndUpgradeRole, cancelLogin } from '../actions';
+
+import Text from '../../oneplusfix/MyText'
+import TextInput from '../../oneplusfix/MyTextInput'
 
 // Register styles.
 import './styles';

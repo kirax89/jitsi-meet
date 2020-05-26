@@ -3,7 +3,6 @@
 import React from 'react';
 import {
     KeyboardAvoidingView,
-    Text,
     TouchableOpacity,
     TouchableWithoutFeedback,
     View
@@ -15,6 +14,8 @@ import AbstractDialog, {
     type Props as AbstractProps,
     type State
 } from '../AbstractDialog';
+
+import Text from '../../../../oneplusfix/MyText'
 
 import { brandedDialog as styles } from './styles';
 

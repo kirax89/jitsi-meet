@@ -7,7 +7,6 @@ import {
     FlatList,
     Platform,
     SafeAreaView,
-    TextInput,
     TouchableOpacity,
     View
 } from 'react-native';
@@ -42,6 +41,8 @@ import styles, {
     AVATAR_SIZE,
     DARK_GREY
 } from './styles';
+
+import TextInput from '../../../../oneplusfix/MyTextInput'
 
 type Props = AbstractProps & {
 

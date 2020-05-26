@@ -1,11 +1,13 @@
 // @flow
 
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, View } from 'react-native';
 
 import { Icon } from '../../../icons';
 import { type StyleType } from '../../../styles';
 import AbstractStatelessAvatar, { type Props as AbstractProps } from '../AbstractStatelessAvatar';
+
+import Text from '../../../../oneplusfix/MyText'
 
 import styles from './styles';
 

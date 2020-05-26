@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 import { translate } from '../../../i18n';
 import { connect } from '../../../redux';
@@ -11,6 +11,8 @@ import { _abstractMapStateToProps } from '../../functions';
 import { type Props as BaseProps } from './BaseDialog';
 import BaseSubmitDialog from './BaseSubmitDialog';
 import { brandedDialog } from './styles';
+
+import Text from '../../../../oneplusfix/MyText'
 
 type Props = BaseProps & {
 

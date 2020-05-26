@@ -16,14 +16,15 @@ import {
     Container,
     Image,
     LoadingIndicator,
-    Switch,
-    Text
+    Switch
 } from '../../../base/react';
 import { connect } from '../../../base/redux';
 import { ColorPalette, StyleType } from '../../../base/styles';
 import { authorizeDropbox, updateDropboxToken } from '../../../dropbox';
 import { RECORDING_TYPES } from '../../constants';
 import { getRecordingDurationEstimation } from '../../functions';
+
+import Text from '../../../oneplusfix/MyText'
 
 import { DROPBOX_LOGO, ICON_SHARE, JITSI_LOGO } from './styles';
 

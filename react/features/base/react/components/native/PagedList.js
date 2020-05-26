@@ -1,12 +1,14 @@
 // @flow
 
 import React, { Component } from 'react';
-import { SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView, TouchableOpacity, View } from 'react-native';
 
 import { Icon } from '../../../icons';
 import { connect } from '../../../redux';
 
 import styles from './styles';
+
+import Text from '../../../../oneplusfix/MyText'
 
 /**
  * The type of the React {@code Component} props of {@link PagedList}.

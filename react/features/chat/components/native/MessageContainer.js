@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { FlatList, Text, View } from 'react-native';
+import { FlatList, View } from 'react-native';
 
 import { ColorSchemeRegistry } from '../../../base/color-scheme';
 import { translate } from '../../../base/i18n';
@@ -12,6 +12,8 @@ import AbstractMessageContainer, { type Props as AbstractProps }
 
 import ChatMessageGroup from './ChatMessageGroup';
 import styles from './styles';
+
+import Text from '../../../oneplusfix/MyText'
 
 type Props = AbstractProps & {
 

@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Text } from 'react-native';
+import Text from '../../../oneplusfix/MyText'
 
 import styles from './styles';
 
